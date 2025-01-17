@@ -10,7 +10,7 @@ public class c_linear_search_in_array {
     }
     public static void main(String[] args) {
         int numbers[]={2,4,6,8,10,45,23,7,69};
-        int key=6 9;
+        int key=69;
         int index=linearSearch(numbers, key);
         if(index==-1){
             System.out.println("Not found");

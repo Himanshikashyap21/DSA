@@ -3,8 +3,8 @@ public class l_buy_and_sell_stock {
         int buyPrice=Integer.MAX_VALUE;
         int maxProfit=0;
         for(int i=0;i<prices.length;i++){
-            if(buyPrice<prices[i]){
-                int profit=prices[i]-buyPrice;
+            if(buyPrice<prices[i]){ //profit
+                int profit=prices[i]-buyPrice; //today's profit
                 maxProfit=Math.max(maxProfit,profit);
             } else{
                 buyPrice=prices[i];
